@@ -7,4 +7,12 @@ export default {
   decorators: [withKnobs]
 }
 
-export const Basic = () => <Main title={text('Title', 'React Avançado')} />
+export const Basic = () => (
+  <Main
+    title={text('Title', 'React Avançado')}
+    description={text(
+      'Description',
+      'TypeScript, ReactJS, NextJS e Styled Components'
+    )}
+  />
+)
