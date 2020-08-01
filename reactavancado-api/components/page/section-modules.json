@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "SectionModules",
+    "icon": "vector-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.modules",
+      "required": true
+    }
+  }
+}

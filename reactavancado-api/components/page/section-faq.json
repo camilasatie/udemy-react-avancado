@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_section_teches",
+  "collectionName": "components_page_section_faqs",
   "info": {
-    "name": "SectionTech",
-    "icon": "toolbox"
+    "name": "SectionFaq",
+    "icon": "question-circle"
   },
   "options": {},
   "attributes": {
@@ -10,13 +10,12 @@
       "type": "string",
       "required": true
     },
-    "techIcons": {
+    "questions": {
       "type": "component",
       "repeatable": true,
-      "component": "page.tech-icons",
+      "component": "page.questions",
       "required": true,
-      "max": 10,
-      "min": 5
+      "min": 2
     }
   }
 }
