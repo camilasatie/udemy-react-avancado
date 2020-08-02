@@ -1,8 +1,8 @@
 {
   "collectionName": "components_page_section_concepts",
   "info": {
-    "name": "sectionConcepts",
-    "icon": "align-justify"
+    "name": "SectionConcepts",
+    "icon": "clipboard-list"
   },
   "options": {},
   "attributes": {

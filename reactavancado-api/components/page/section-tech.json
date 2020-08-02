@@ -2,7 +2,7 @@
   "collectionName": "components_page_section_teches",
   "info": {
     "name": "SectionTech",
-    "icon": "toolbox"
+    "icon": "atom"
   },
   "options": {},
   "attributes": {
@@ -14,8 +14,6 @@
       "type": "component",
       "repeatable": true,
       "component": "page.tech-icons",
-      "required": true,
-      "max": 10,
       "min": 5
     }
   }

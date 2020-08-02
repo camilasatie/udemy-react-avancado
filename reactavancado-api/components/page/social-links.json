@@ -2,7 +2,7 @@
   "collectionName": "components_page_social_links",
   "info": {
     "name": "socialLinks",
-    "icon": "network-wired"
+    "icon": "globe"
   },
   "options": {},
   "attributes": {
@@ -20,6 +20,15 @@
     },
     "url": {
       "type": "string",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
       "required": true
     }
   }

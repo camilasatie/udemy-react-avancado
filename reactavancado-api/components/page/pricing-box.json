@@ -12,10 +12,10 @@
       "default": 415
     },
     "numberInstallments": {
-      "type": "biginteger",
+      "type": "integer",
       "required": true
     },
-    "priceInstallment": {
+    "priceInstallments": {
       "type": "integer",
       "required": true
     },

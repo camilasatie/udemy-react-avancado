@@ -2,7 +2,7 @@
   "collectionName": "components_page_section_aboutuses",
   "info": {
     "name": "SectionAboutUs",
-    "icon": "user-astronaut"
+    "icon": "address-card"
   },
   "options": {},
   "attributes": {

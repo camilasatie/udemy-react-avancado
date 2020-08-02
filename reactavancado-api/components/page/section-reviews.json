@@ -2,7 +2,7 @@
   "collectionName": "components_page_section_reviews",
   "info": {
     "name": "SectionReviews",
-    "icon": "star"
+    "icon": "receipt"
   },
   "options": {},
   "attributes": {
@@ -10,10 +10,10 @@
       "type": "string",
       "required": true
     },
-    "reviews": {
+    "review": {
       "type": "component",
       "repeatable": true,
-      "component": "page.reviews",
+      "component": "page.review",
       "required": true
     }
   }

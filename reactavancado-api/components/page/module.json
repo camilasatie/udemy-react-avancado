@@ -1,7 +1,7 @@
 {
   "collectionName": "components_page_modules",
   "info": {
-    "name": "modules",
+    "name": "module",
     "icon": "newspaper"
   },
   "options": {},
@@ -10,11 +10,11 @@
       "type": "string",
       "required": true
     },
-    "subtitle": {
+    "description": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "text": {
       "type": "richtext",
       "required": true
     }

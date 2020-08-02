@@ -22,8 +22,9 @@
       "type": "string",
       "required": true
     },
-    "roll": {
+    "role": {
       "type": "string",
+      "unique": false,
       "required": true
     },
     "socialLinks": {

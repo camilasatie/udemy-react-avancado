@@ -8,13 +8,13 @@
   "attributes": {
     "label": {
       "type": "string",
-      "default": "Comprar",
       "required": true,
+      "default": "Comprar",
       "maxLength": 20
     },
     "url": {
       "type": "string",
-      "unique": true
+      "required": true
     }
   }
 }

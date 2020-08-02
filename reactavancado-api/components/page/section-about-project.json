@@ -1,8 +1,8 @@
 {
   "collectionName": "components_page_section_about_projects",
   "info": {
-    "name": "sectionAboutProject",
-    "icon": "address-card"
+    "name": "SectionAboutProject",
+    "icon": "info-circle"
   },
   "options": {},
   "attributes": {
@@ -14,12 +14,11 @@
       "type": "richtext",
       "required": true
     },
-    "media": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true

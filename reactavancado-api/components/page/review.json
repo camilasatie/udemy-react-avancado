@@ -1,12 +1,12 @@
 {
   "collectionName": "components_page_reviews",
   "info": {
-    "name": "reviews",
-    "icon": "star-half-alt"
+    "name": "review",
+    "icon": "pencil-alt"
   },
   "options": {},
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string",
       "required": true
     },
@@ -21,7 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

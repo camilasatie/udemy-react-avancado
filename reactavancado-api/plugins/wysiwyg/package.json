@@ -5,7 +5,7 @@
   "strapi": {
     "name": "wysiwyg",
     "icon": "plug",
-    "description": "CKEditor to rich text fields."
+    "description": "Description of wysiwyg plugin."
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^21.0.0",

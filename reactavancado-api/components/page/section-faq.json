@@ -14,8 +14,7 @@
       "type": "component",
       "repeatable": true,
       "component": "page.questions",
-      "required": true,
-      "min": 2
+      "required": true
     }
   }
 }

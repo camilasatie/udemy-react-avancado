@@ -1,15 +1,14 @@
 {
-  "collectionName": "components_page_headers",
+  "collectionName": "components_page_section_heroes",
   "info": {
-    "name": "header",
+    "name": "SectionHero",
     "icon": "heading"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "default": "React Avançado"
+      "required": true
     },
     "description": {
       "type": "text",
@@ -20,7 +19,7 @@
       "repeatable": false,
       "component": "page.button"
     },
-    "image": {
+    "media": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

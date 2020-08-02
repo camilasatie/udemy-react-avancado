@@ -11,25 +11,23 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^21.0.0",
-    "@ckeditor/ckeditor5-react": "^2.1.0",
-    "knex": "<0.20.0",
-    "pg": "latest",
     "strapi": "3.1.3",
     "strapi-admin": "3.1.3",
-    "strapi-connector-bookshelf": "3.1.3",
-    "strapi-plugin-content-manager": "3.1.3",
+    "strapi-utils": "3.1.3",
     "strapi-plugin-content-type-builder": "3.1.3",
+    "strapi-plugin-content-manager": "3.1.3",
+    "strapi-plugin-users-permissions": "3.1.3",
     "strapi-plugin-email": "3.1.3",
     "strapi-plugin-upload": "3.1.3",
-    "strapi-plugin-users-permissions": "3.1.3",
-    "strapi-utils": "3.1.3"
+    "strapi-connector-bookshelf": "3.1.3",
+    "knex": "<0.20.0",
+    "pg": "latest"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "5d9ac5e0-98ad-463c-8ac6-3ec587139dd8"
+    "uuid": "c2af42af-cfbe-4545-b469-5f3329c6a3a2"
   },
   "engines": {
     "node": ">=10.0.0",

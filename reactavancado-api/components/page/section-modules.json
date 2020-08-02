@@ -2,7 +2,7 @@
   "collectionName": "components_page_section_modules",
   "info": {
     "name": "SectionModules",
-    "icon": "vector-square"
+    "icon": "network-wired"
   },
   "options": {},
   "attributes": {
@@ -10,11 +10,11 @@
       "type": "string",
       "required": true
     },
-    "modules": {
+    "module": {
       "type": "component",
       "repeatable": true,
-      "component": "page.modules",
-      "required": true
+      "component": "page.module",
+      "required": false
     }
   }
 }

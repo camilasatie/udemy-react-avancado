@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_logos",
+  "info": {
+    "name": "Logo",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
