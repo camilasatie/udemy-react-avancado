@@ -15,12 +15,6 @@
       "component": "page.section-hero",
       "required": true
     },
-    "Logo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.logo",
-      "required": true
-    },
     "SectionAboutProject": {
       "type": "component",
       "repeatable": false,
@@ -71,6 +65,15 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }
