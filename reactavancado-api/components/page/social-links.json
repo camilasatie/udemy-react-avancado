@@ -21,15 +21,6 @@
     "url": {
       "type": "string",
       "required": true
-    },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true
     }
   }
 }
