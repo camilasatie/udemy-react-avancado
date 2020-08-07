@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "SectionHero": {
+    "sectionHero": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-hero",
