@@ -15,7 +15,7 @@
       "component": "page.section-hero",
       "required": true
     },
-    "SectionAboutProject": {
+    "sectionAboutProject": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-project",

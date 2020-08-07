@@ -16,7 +16,17 @@ export type HeroProps = {
   }
 }
 
+export type AboutProjectProps = {
+  title: string
+  description: string
+  image: {
+    url: string
+    alternativeText: string
+  }
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   sectionHero: HeroProps
+  sectionAboutProject: AboutProjectProps
 }
