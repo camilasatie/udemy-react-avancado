@@ -4,7 +4,6 @@ import Heading from 'components/Heading'
 import Container from 'components/Container'
 import CardModule from 'components/CardModule'
 
-import content from './content'
 import * as S from './styles'
 import { ModulesProps } from 'types/api'
 

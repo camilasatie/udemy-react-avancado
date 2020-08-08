@@ -12,11 +12,9 @@ export type ConceptsTitle = {
 }
 
 export type ModulesItems = {
-  module: {
-    title: string
-    description: string
-    text: string
-  }
+  title: string
+  description: string
+  text: string
 }
 
 export type LogoProps = {
@@ -61,10 +59,17 @@ export type ModulesProps = {
   module: ModulesItems[]
 }
 
+export type AgendaProps = {
+  title: string
+  text: string
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   sectionHero: HeroProps
   sectionAboutProject: AboutProjectProps
   sectionTech: TechProps
   sectionConcepts: ConceptsProps
+  sectionModules: ModulesProps
+  sectionAgenda: AgendaProps
 }

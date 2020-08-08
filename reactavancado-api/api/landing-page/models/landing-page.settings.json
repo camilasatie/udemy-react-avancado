@@ -50,7 +50,7 @@
     },
     "sectionAgenda": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.section-agenda"
     },
     "pricingBox": {
