@@ -8,10 +8,6 @@ import * as S from './styles'
 import { AboutProjectProps } from 'types/api'
 import { getImageUrl } from 'utils/getImageUrl'
 
-type Props = {
-  sectionAboutProject: AboutProjectProps
-}
-
 const SectionAboutProject = ({
   title,
   description,
