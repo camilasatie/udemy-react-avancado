@@ -27,44 +27,17 @@
       "component": "page.section-tech",
       "required": true
     },
-    "SectionConcepts": {
+    "sectionConcepts": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-concepts",
       "required": true
     },
-    "SectionModules": {
+    "sectionModules": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-modules",
       "required": true
-    },
-    "SectionAgenda": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-agenda"
-    },
-    "PricingBox": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.pricing-box",
-      "required": true
-    },
-    "SectionAboutUs": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-about-us"
-    },
-    "SectionReviews": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-reviews",
-      "required": true
-    },
-    "SectionFaq": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-faq"
     },
     "logo": {
       "model": "file",
@@ -73,6 +46,35 @@
         "images"
       ],
       "plugin": "upload",
+      "required": true
+    },
+    "sectionAgenda": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.section-agenda"
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box",
+      "required": true
+    },
+    "sectionAboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us",
+      "required": true
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews",
+      "required": true
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
       "required": true
     }
   }
