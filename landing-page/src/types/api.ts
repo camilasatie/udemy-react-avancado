@@ -17,10 +17,25 @@ export type ModulesItems = {
   text: string
 }
 
-export type LogoProps = {
+export type SocialLink = {
+  title: string
+  url: string
+}
+
+export type Image = {
   url: string
   alternativeText: string
 }
+
+export type Author = {
+  photo: Image
+  name: string
+  role: string
+  socialLinks: SocialLink[]
+  description: string
+}
+
+export type LogoProps = Image
 
 export type HeroProps = {
   title: string
@@ -29,19 +44,13 @@ export type HeroProps = {
     url: string
     label: string
   }
-  media: {
-    alternativeText: string
-    url: string
-  }
+  media: Image
 }
 
 export type AboutProjectProps = {
   title: string
   description: string
-  image: {
-    url: string
-    alternativeText: string
-  }
+  image: Image
 }
 
 export type TechProps = {
@@ -75,6 +84,11 @@ export type PricingBoxProps = {
   }
 }
 
+export type AboutUsProps = {
+  title: string
+  authors: Author[]
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   sectionHero: HeroProps
@@ -84,4 +98,5 @@ export type LandingPageProps = {
   sectionModules: ModulesProps
   sectionAgenda: AgendaProps
   pricingBox: PricingBoxProps
+  sectionAboutUs: AboutUsProps
 }

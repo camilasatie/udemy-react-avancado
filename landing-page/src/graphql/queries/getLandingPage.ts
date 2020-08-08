@@ -71,7 +71,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     }
   }
 
-  fragment pricingBox on LandingPage {
+  fragment sectionPricingBox on LandingPage {
     pricingBox {
       totalPrice
       numberInstallments
@@ -80,6 +80,25 @@ const GET_LANDING_PAGE = /* GraphQL */ `
       button {
         label
         url
+      }
+    }
+  }
+
+  fragment sectionAboutUs on LandingPage {
+    sectionAboutUs {
+      title
+      authors {
+        photo {
+          alternativeText
+          url
+        }
+        name
+        role
+        socialLinks {
+          title
+          url
+        }
+        description
       }
     }
   }
@@ -93,7 +112,8 @@ const GET_LANDING_PAGE = /* GraphQL */ `
       ...sectionConcepts
       ...sectionModules
       ...sectionAgenda
-      ...pricingBox
+      ...sectionPricingBox
+      ...sectionAboutUs
     }
   }
 `
